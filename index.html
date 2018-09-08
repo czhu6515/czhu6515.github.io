@@ -1,44 +1,73 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <link rel="stylesheet" href="tipStyle.css">
-</head>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Affordable and professional web design">
+    <meta name="keywords" content="web design, affordable web design, professional web design, web creator">
+    <meta name="author" content="Chenyu Zhu">
+    <title>WebWizards | Welcome</title>
+    <link rel="stylesheet" href="./css/mainstyle.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1>Web<span class="highlight">Wizards</span></h1>
+        </div>
+        <nav>
+          <ul>
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="websites.html">Projects</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-<title>Tip Calculator</title>
+    <section id="showcase">
+      <div class="container">
+        <h1> Affordable Professional Web Design </h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc posuere lacinia risus, id sodales mauris accumsan ac. Vivamus at lacus porttitor est venenatis commodo. Aeneonvallis. Donec suscipit ac purus quis luctus. Praesent vitae augue ac dolor pretium pellentesque quis placerat metus.
+        </p>
+      </div>
+    </section>
 
-<body>
+    <section id="newsletter">
+      <div class="container">
+        <h1> Subscribe to our newsletter</h1>
+        <form>
+          <input type="email" placeholder="Enter Email...">
+          <button type="submit" class="button_1"> Subscribe! </button>
+        </form>
+      </div>
+    </section>
 
-<div id="container">
-  <h1>Tip Calculator</h1>
-  <div id="calculator">
-    <form>
-      <p>How much was your bill?
-        <p>
-          $ <input id="billAmt" type="text" placeholder="Bill Amount">
-        <p> How was your service?
-        <p>
-          <select id="serviceQual">
-            <option disabled selected value="0"> Please select an option </option>
-            <option value="0.3"> Excellent - 30%</option>
-            <option value="0.2"> Good - 20%</option>
-            <option value="0.15"> Fair - 15%</option>
-            <option value="0.1"> Poor - 10%</option>
-            <option value="0.05"> Did the server even exist? - 5%</option>
-          </select>
-        <p> How many people are sharing the bill?
-        <p>
-          <input id='peopleAmt' type="text" placeholder="Number of People">
-        <p>
-          <button type="button" id="calculate">Calculate!</button>
-  </div>
-  <div id="totalTip">
-    <sup>$</sup><span id="tip">0.00</span>
-    <small id="each">each</small>
-  </div>
-  <script type="text/javascript" src="tipCalculator.js"></script>
+    <section id="boxes">
+      <div class="container">
+        <div class="box">
+          <img src="./img/logo_html.png">
+          <h3>HTML5 Markup</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc posuere lacinia risus, id sodales mauris accumsan ac. Vivamus at lacus porttitor est venenatis commodo. Aeneonvallis. Donec suscipit ac purus quis luctus. Praesent vitae augue ac dolor pretium pellentesque quis placerat metus.</p>
+        </div>
+        <div class="box">
+          <img src="./img/logo_css.png">
+          <h3>CSS3 Styling</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc posuere lacinia risus, id sodales mauris accumsan ac. Vivamus at lacus porttitor est venenatis commodo. Aeneonvallis. Donec suscipit ac purus quis luctus. Praesent vitae augue ac dolor pretium pellentesque quis placerat metus.</p>
+        </div>
+        <div class="box">
+          <img src="./img/logo_brush.png">
+          <h3>Graphic Design</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc posuere lacinia risus, id sodales mauris accumsan ac. Vivamus at lacus porttitor est venenatis commodo. Aeneonvallis. Donec suscipit ac purus quis luctus. Praesent vitae augue ac dolor pretium pellentesque quis placerat metus.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <footer>
+      <p> WebWizards, Copyright &copy; 2017 </p>
+    </footer>
 
 
-
-</div>
-</body>
+  </body>
 </html>
