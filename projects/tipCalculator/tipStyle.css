@@ -1,0 +1,30 @@
+body {
+  font-family: Helvetica;
+  background-image: url(waitress.jpg);
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  height: 50em;
+  width: 50em;
+}
+h1 {
+  background-color: rgba(2, 186, 219, 0.5);
+  margin: 0;
+  padding: 1em 4em;
+  font-size: 1.3em;
+  border-top-left-radius: 3em;
+  border-top-right-radius: 3em;
+}
+p {
+  padding-left: 1em;
+}
+#container {
+  background-color: rgba(110, 219, 239, 0.5);
+  height: 30em;
+  width: 20em;
+  margin: 2em;
+  border-radius: 3.5em;
+}

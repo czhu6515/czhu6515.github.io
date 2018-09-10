@@ -1,0 +1,61 @@
+* {
+  font-family: arial;
+
+}
+
+/* scorboard */
+#scoreboard {
+  margin: 10px auto;
+  border: 2px solid red;
+  display: block;
+  width: 255px;
+  text-align: center;
+}
+
+#score {
+  color: red;
+}
+
+/* resize all images*/
+.resize {
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+}
+
+/* player selections*/
+#options{
+  display: inline-block;
+  width: 100%;
+  margin: 10px auto;
+  text-align: center;
+
+}
+
+.hover:hover {
+  background-color: blue;
+}
+
+.container {
+  display: inline-block;
+  padding: 10px 10px;
+  margin: 5px 5px;
+}
+
+/* game results */
+#selections {
+  display: inline-block;
+  width: 100%;
+  margin: 10px auto;
+  text-align: center;
+}
+
+
+
+#results {
+  display: inline-block;
+
+  width: 100%;
+  margin: 10px auto;
+  text-align: center;
+}
