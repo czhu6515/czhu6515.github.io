@@ -7,13 +7,13 @@
     <meta name="keywords" content="rock, paper, scissors, rock paper scissors">
     <meta name="author" content="Chenyu Zhu">
     <title>RPS | Welcome</title>
-    <link rel="stylesheet" href="./rpsstyle.css">
+    <link rel="stylesheet" href="rpsstyle.css">
 
   </head>
   <body>
     <!-- Scoreboard -->
     <div id="scoreboard">
-      <h1>Scoreboard: <span id="score">0</span></h1>
+      <h1>Scoreboard: <span id="player-score">0</span>:<span id="comp-score">0</span></h1>
     </div>
 
     <!-- Container for RPS game -->
@@ -39,11 +39,12 @@
         </div>
       </div>
 
-      <div>
-        <p id="results"> You win! </p>
-        <button onClick="test()">DEBUG </button>
+      <div id="results">
+        <p> You win! </p>
       </div>
+      <button onClick="reset()"> RESET </button>
     </div>
+
 
     <script type="text/javascript" src="rpsjs.js"></script>
   </body>
