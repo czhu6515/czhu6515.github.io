@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Rock Paper Scissors">
+    <meta name="keywords" content="rock, paper, scissors, rock paper scissors">
+    <meta name="author" content="Chenyu Zhu">
+    <title>RPS | Welcome</title>
+    <link rel="stylesheet" href="./rpsstyle.css">
+
+  </head>
+  <body>
+    <!-- Scoreboard -->
+    <div id="scoreboard">
+      <h1>Scoreboard: <span id="score">0</span></h1>
+    </div>
+
+    <!-- Container for RPS game -->
+    <div>
+      <div id="options">
+        <div class="container hover" id="rock">
+          <img class="resize" src="rock.png" onClick="choose('rock')">
+        </div>
+        <div class="container hover" id="paper">
+          <img class="resize" src="paper.jpg" onClick="choose('paper')">
+        </div>
+        <div class="container hover" id="scissors">
+          <img class="resize" src="scissors.jpg" onClick="choose('scissors')">
+        </div>
+      </div>
+
+      <div id="selections">
+        <div class="container">
+          <p> You chose: </p><img class="resize" id="player-choice" src="rock.png">
+        </div>
+        <div class="container">
+          <p> Computer chose: </p><img class="resize" id="comp-choice" src="rock.png">
+        </div>
+      </div>
+
+      <div>
+        <p id="results"> You win! </p>
+        <button onClick="test()">DEBUG </button>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="rpsjs.js"></script>
+  </body>
+</html>
