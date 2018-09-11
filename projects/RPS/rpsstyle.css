@@ -1,7 +1,32 @@
 * {
   font-family: arial;
+  background-color: #fcfcfc
 
 }
+
+/* Animations */
+@keyframes shake {
+  {
+    transform: translate3d(0, -7px, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(0, 7px, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(0, -15px, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(0, 15px, 0);
+  }
+}
+
+.shake {
+  animation: shake 1.0s cubic-bezier(1,1,.19,.97) both;
+}
+
 
 /* scorboard */
 #scoreboard {
@@ -55,6 +80,10 @@
   width: 100%;
   margin: 10px auto;
   text-align: center;
+}
+
+#results p {
+  font-weight: bolder;
 }
 
 button {
