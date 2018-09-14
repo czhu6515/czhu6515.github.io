@@ -28,9 +28,13 @@ body{
 header{
   background: #003049;
   color: #fcbf49;
-  padding-top: 30px;
-  min-height: 70px;
+  padding: 10px 0;
   border-bottom: #d62828 3px solid;
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+  z-index: 3;
+
 }
 
 header a{
@@ -69,16 +73,72 @@ header .highlight, header .current a{
   font-weight: bold;
 }
 
-header a:hover{
-  color: #cccccc;
+
+header li {
+  color: #fff;
+  background: #003049;
+  display: block;
+  float: left;
+  position: relative;
+  text-decoration: none;
+  transition-duration: 0.5s;
 }
 
+header li a {
+  color: #fff;
+}
+
+header li:hover {
+  color: #fff !important;
+  background: #fcbf49;
+  cursor: pointer;
+}
+
+header ul li ul {
+  background: orange;
+  visibility: block;
+  opacity: 0;
+  min-width: 5rem;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+  left: 0;
+  display: none;
+  z-index: 20;
+}
+
+
+/*
+header .dropdown {
+  position: absolute;
+}
+
+header .dropdown-content {
+    display: none;
+    position: absolute;
+    border: 3px black;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 10;
+    opacity: 0.8;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    right: 70px;
+}
+
+header .dropdown:hover .dropdown-content {
+  display: block;
+}
+*/
 /*showcase*/
 #showcase{
+  padding: 50px 0;
   min-height: 400px;
   background: url(../img/showcase.jpg) no-repeat 0 -400px;
   text-align: center;
   color:#ffffff;
+  position:relative;
+  z-index:0;
 }
 
 #showcase h1{
