@@ -175,7 +175,24 @@ function keyRandomize() {
   document.getElementById("route11").innerHTML = routemasters[routeRandom[10]]
   document.getElementById("route12").innerHTML = routemasters[routeRandom[11]]
 
+  document.getElementById("era2-div").classList.add("hidden")
+  document.getElementById("era3-div").classList.add("hidden")
+
 }
+
+function show2() {
+  document.getElementById("era2-div").classList.remove("hidden")
+}
+
+function show3() {
+  document.getElementById("era3-div").classList.remove("hidden")
+}
+
+
 
 //click to call randomize function
 document.getElementById("randomize").onclick = function() {keyRandomize()}
+
+//click to show eras 2 and 3
+document.getElementById("show2").onclick = function() {show2()}
+document.getElementById("show3").onclick = function() {show3()}

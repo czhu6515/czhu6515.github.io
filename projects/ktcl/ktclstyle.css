@@ -1,5 +1,9 @@
 body {
   font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, sans-serif;
+  text-align: center;
+  margin: 20px auto;
+  overflow: scroll;
+  background-color: #fefefe
 }
 
 
