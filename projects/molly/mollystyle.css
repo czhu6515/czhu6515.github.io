@@ -8,7 +8,7 @@ body {
   overflow: hidden;
 }
 
-nav{
+header{
   position: fixed;
   font-size: 20px;
   text-align: center;
@@ -22,18 +22,18 @@ nav{
 
 }
 
-nav ul{
+header ul{
   list-style-type: none;
   padding: 0;
   overflow: hidden;
 
 }
 
-nav ul li {
+header ul li {
   display: inline;
 }
 
-nav ul li a {
+header ul li a {
   display: inline-block;
   color: #eee;
   text-align: center;
@@ -42,7 +42,7 @@ nav ul li a {
   margin: 0;
 }
 
-nav ul li a:hover {
+header ul li a:hover {
   color: #111;
   background-color: #ccc;
   transition: 0.5s;
