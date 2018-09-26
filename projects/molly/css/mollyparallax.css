@@ -1,0 +1,92 @@
+* {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
+   color: #f4f7fc ;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover{
+  color: #6DB806;
+  transition: 0.5s;
+}
+
+.wrapper {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.top {
+  background-image: url("../img/eye.jpg");
+}
+
+.middle {
+  background-image: url("../img/pink.jpg");
+}
+
+.bot {
+  background-image: url("../img/top-splash.jpg");
+}
+
+.parallax {
+  min-height: 100vh;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 0 0 5px #000;
+}
+
+section h1 {
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
+  padding: 1em 2em;
+  font-weight: 700;
+  opacity: 0.6;
+}
+
+.static {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.grey-radial {
+  background: radial-gradient(circle at 100%, #aaa, #111 55%, #aaa 75%, #111 75%);
+}
+
+.pink-radial {
+  background: radial-gradient(circle at 10%, #14010f, #111 45%, #ff99e4 75%, #14010f 75%);
+}
+
+.static p {
+  font-size: 1em;
+  margin: 1em;
+  line-height: 2em;
+}
+
+.about-me {
+  width: 50%;
+}
+
+@media only screen and (max-width: 900px) {
+  .static p {
+    font-size: 0.8em;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .static p {
+    font-size: 0.6em;
+  }
+}
