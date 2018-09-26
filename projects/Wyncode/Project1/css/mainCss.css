@@ -1,0 +1,277 @@
+* {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 300;
+   color: #f4f7fc ;
+}
+
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f4f4f4;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.white-font {
+  color: white;
+}
+
+.dark-green-font {
+  color: #108e09;
+}
+/* #########################
+########### HEADER #########
+############################ */
+
+header {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 91em;
+  height: 5em;
+  align-items: center;
+  /* padding: 0 8.2em; */
+  border-bottom: #f4f7fc solid 1px;
+  padding-top: 1em;
+}
+
+#header-box{
+  display: flex;
+  flex-direction: row;
+  height: 4em;
+  width: 80em;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header #social-media {
+  display: flex;
+  align-items: center;
+}
+
+
+/* ##########################
+########## SPLASH #########
+############################# */
+
+#splash {
+  height: 43em;
+  width: 80em;
+  background: radial-gradient(circle at right,
+                              #f4f7fc, #979da8 );
+}
+
+.splash-container {
+  height: 12em;
+  float:left;
+  display: inline-block;
+  position: relative;
+  top: 10em;
+  left: 5em;
+}
+
+.splash-container h2{
+  font-weight: 700;
+  font-size: 1.6em
+}
+
+.splash-container h1{
+  font-size: 2.2em;
+  font-weight: 300;
+  position: relative;
+  top: -1em;
+}
+
+.splash-container h3{
+  font-size: 1em;
+  font-weight: 300;
+  position: relative;
+  top: -3em;
+}
+
+#button-package{
+  height: 4em;
+  width: 30em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#splash-green-button {
+  display: flex;
+  flex-direction: row;
+  background-color: #6DB806;
+  height: 4em;
+  width: 19em;
+  top:5em;
+  border-radius: 0.5em;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#splash-green-button-left {
+  font-weight: 700;
+  align-items: center;
+  width: 6em;
+  border-right: solid 1px;
+  height: 2.1em;
+  font-size: 0.8em;
+  padding: 0 1em;
+  text-align: center;
+}
+
+#splash-green-button-left p {
+  margin: 0;
+  padding: 0;
+}
+
+#splash-green-button-right {
+  width: 12em;
+  font-size: 0.8em;
+
+}
+
+#splash-package {
+  color: white;
+  font-size: 0.7em;
+  padding-right: 5em;
+
+}
+
+#splash-hand {
+  height: 40em;
+  width: 40em;
+  position: relative;
+  bottom: -1em;
+  left: 12em;
+}
+
+
+/* ##########################
+########## SHOWCASE #########
+############################# */
+
+#showcase {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  height: 22em;
+  width: 80em;
+  justify-content: space-between;
+  border: #e8e5e5 solid 1px;
+
+}
+
+.item-box {
+  background-color: yellow;
+  height: 15em;
+  width: 30%;
+  margin: 3em;
+}
+
+/* #############################
+########## DRIBBBLE AD #########
+################################*/
+
+#dribble-ad {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  height: 20em;
+  width: 80em;
+  justify-content: center;
+  align-items: center;
+}
+
+#dribble-button {
+  background-color: blue;
+  width: 14em;
+  text-align: center;
+}
+
+
+/* #############################
+############ GALLERY ###########
+################################ */
+
+#gallery {
+  display: flex;
+  flex-direction: row;
+  background-color: orange;
+  height: 25em;
+  width: 80em;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.gallery-box {
+  background-color: yellow;
+  height: 13em;
+  flex-wrap: wrap;
+  width: 19.8%;
+  border: solid;
+  border-width: 1px;
+}
+
+
+
+/* #############################
+############ Newsletter ###########
+################################ */
+
+
+#newsletter {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  height: 25em;
+  width: 80em;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+/* #############################
+############ footer ###########
+################################ */
+
+footer {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  height: 30em;
+  width: 80em;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer-left {
+
+}
+
+#footer-right {
+
+}
+
+.footer-pic {
+  background-color: yellow;
+  height: 5em;
+  flex-wrap: wrap;
+  width: 15%;
+  border: solid;
+  border-width: 1px;
+}
